@@ -1,12 +1,12 @@
 1. cd ~
 2. mkdir development
 3. cd development; touch README.md
-echo "DS2002" > README.md
-echo "Anthony Jiang" >> README.md
-touch file{101..200..4}.txt
-touch bash_history
-history > bash_history
-zip -r ../archive.zip development
-echo "export FAVORITE_FLAVOR=vanilla" >> ~/.bashrc
+4. echo "DS2002" > README.md
+5. echo "Anthony Jiang" >> README.md
+6. touch file{101..200..4}.txt
+7. touch bash_history
+8. history > bash_history
+9. zip -r ../archive.zip development
+10. echo "export FAVORITE_FLAVOR=vanilla" >> ~/.bashrc
 
 # I used GitHub Codespaces to complete lab 1
