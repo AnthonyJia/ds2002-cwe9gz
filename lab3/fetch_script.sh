@@ -10,7 +10,7 @@ tar -xzvf "$file_name" # decompress the tar.gz file
 
 tsv_file=$(tar -tzf "$file_name" | grep '\.tsv$') # gets the name of the .tsv file in the tarball
 
-csv_file="${tsv_file%.tsv}.csv"
+csv_file="${tsv_file%.tsv}.csv" # extract the name of the tsv file without the .tsv extension and store that name as a .csv file
 
-tr '\t' ',' < "$tsv_file" > "$csv_file"
+tr '\t' ',' < "$tsv_file" > "$csv_file" # replace all the tab characters with commas instead and store it in a csv file
 
