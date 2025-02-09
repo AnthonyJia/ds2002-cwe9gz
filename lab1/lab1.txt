@@ -6,7 +6,7 @@
 6. touch file{101..200..4}.txt
 7. touch bash_history
 8. history > bash_history
-9. zip -r ../archive.zip development
+9. cd ..; zip -r archive.zip development
 10. echo "export FAVORITE_FLAVOR=vanilla" >> ~/.bashrc
 
 # I used GitHub Codespaces to complete lab 1
