@@ -18,7 +18,7 @@ df.dropna(inplace=True) # removes rows with NaN or empty in a cell
 
 print(f'Line count after NaN/empty cell row removal: {len(df)}') # counts the lines after taking out rows with NaN/empty cells
 
-df.drop_duplicates(inplace = True) # removes rows that are duplicates
+df.drop_duplicates(inplace=True) # removes rows that are duplicates
 
 print(f'Line count after removing duplicates: {len(df)}')
 
